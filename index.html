@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <title>Todo App</title>
+    <link rel="stylesheet" href="main.css" type="text/css" media="screen" charset="utf-8">    
+  </head>
+  <body>
+    <div class="container">
+      <p>
+        <label for="new-task">ADD ITEM</label><input id="new-task" type="text" placeholder="What have you planned?"><button>Add</button>
+      </p>
+      
+      <h3>TODO LIST</h3>
+      <ul id="incomplete-tasks">
+        <li><input type="checkbox"><label>Workout</label><input type="text"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+
+      </ul>
+      
+      <h3>COMPLETED</h3>
+      <ul id="completed-tasks">
+        <li><input type="checkbox" checked><label>Meditate for 10 mins</label><input type="text"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+      </ul>
+    </div>
+
+    <script type="text/javascript" src="main.js"></script>
+
+  </body>
+</html>
